@@ -1,0 +1,14 @@
+#1、主体背景色、所选段落（背景色、字体颜色、大小）
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset='utf-8'>
+<title>欢迎光临SQL咖啡厅公告板</title>
+</head>
+<body style='background-color:white'> 
+<hr>
+<p style='background-color:white;color:black;font-size:24pt'>您好！<br>这是SQL咖啡厅的<span style='font-size:50pt'>公告板</span>哦
+</p>  
+<hr>
+</body>
+</html>
