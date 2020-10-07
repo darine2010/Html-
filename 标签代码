@@ -41,3 +41,26 @@
     <?php
     print $_GET["a"];
     ?>
+#4、form & post & while & if
+    #例1.从100个单选按钮中选择并发送年龄数据的表单  
+      <form method='POST' action='radio_receive.php'>
+        请选择您的年龄，然后点击“发送”按钮。<br>
+        <?php
+        $i=1;
+        $b=1;
+        print "<div>";
+        while($i<=100){
+        print "<input type='radio' name='a' value='$i'>$i";
+        if($b==10){
+        print "</div><div>";
+        $b=0;}
+        $i++;
+        $b++;
+        }
+        ?>
+        <input type='submit' value='发送'> 
+        </div>
+    #2、包含了年龄信息的php脚本
+        <?php
+        print '您的年龄是'.$_POST['a'].'岁';
+        ?>
