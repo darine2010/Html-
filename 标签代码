@@ -33,3 +33,11 @@
     <?php
     print $_POST['a'];
     ?>
+#3、
+    #例1、send_get2.html
+    <meta charset='utf-8'>
+    <a href='get_receive2.php?a=12345'>发送12345</a>
+    #例2、get_receive2.php
+    <?php
+    print $_GET["a"];
+    ?>
