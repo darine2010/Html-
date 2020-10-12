@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='utf-8'>
+<title>欢迎光临闫智毅的测试页面：）</title>
+</head>
+<body>
+
+<p>
+	<form method='post' action=simple_select.php>
+	<div>显示信息</div>
+	<input type='submit' value='显示信息'>
+	</form>
+	</p>
+	<hr>
+<p>
+	<div>欢迎查询住房公积金主要业务、财务指标！<br>请根据提示，输入相关信息！</div><br>
+	
+	<form method='post' action='simple_insert.php'>
+	<div>机构代号: <input type='text' name='a1' size=15></div>
+	<div>结束日期: <input type='text' name='a2' size=15></div>
+	<div>数据间隔: <input type='text' name='a3' size=15></div>
+	<div>数据轮次: <input type='text' name='a4' size=15><br></div>
+	<input type='submit' value='递交信息'>
+	<div>温馨提示：<br>1.以上数据源自住建厅住房公积金信息统计系统。<br>
+	2.机构代号：<br>（1）qx：全辖(含铁路分中心)；<br>（2）hz：汇总（市中心及各县市区管理部）；<br>（3）lt：洛阳铁路分中心。<br>
+	3.结束日期：待查询数据之结束日期。参考格式：'2020-9-30'。<br>
+	4.数据间隔：待查询之间相隔月份。参考格式：1，月度；3，季度；6，半年；12，年度。<br>
+	5.数据轮次：所需数据的批次。参考格式：5，近五期数据。<br>
+	</div>
+	</form>
+	</p>
+	<hr>
+<p>
+	<form method='post' action='simple_delete.php'>
+	<div>输入需要删除的编号<input type='text' name='d1'></div>
+	<input type='submit' value='递交信息'>
+	</form>
+	</p>
+	<hr>
+<p>
+	<form method='post' action='simple_select.php'>
+	<div>输入查询的关键字<input type='text' name='s1' size=100></div>
+	<input type='submit' value='查询'>
+	</form>
+	</p>
+	<hr>
+<p>
+
+</p>
+</body>
+
+</html>
